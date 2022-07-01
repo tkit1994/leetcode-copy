@@ -1,0 +1,19 @@
+{
+  "name": "leetcode-copy",
+  "private": true,
+  "version": "0.0.0",
+  "description": "Add a copy button in leetcode.cn's editor to copy code in vim mode",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9",
+    "vite-plugin-tm-userscript": "^1.1.5"
+  },
+  "dependencies": {
+    "@types/tampermonkey": "^4.0.5"
+  }
+}
