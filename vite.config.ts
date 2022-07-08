@@ -5,7 +5,7 @@ import TMPlugin from 'vite-plugin-tm-userscript'
 export default defineConfig({
 	plugins: [
 		TMPlugin({
-			externalGlobals: ['vue']
+			externalGlobals: []
 		})
 	]
 })

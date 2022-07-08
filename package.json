@@ -6,14 +6,17 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "update_gist": "gh gist edit cace80dfd3487af8ff6e43061b54e5db"
   },
   "devDependencies": {
+    "@types/axios": "^0.14.0",
     "typescript": "^4.5.4",
     "vite": "^2.9.9",
     "vite-plugin-tm-userscript": "^1.1.5"
   },
   "dependencies": {
-    "@types/tampermonkey": "^4.0.5"
+    "@types/tampermonkey": "^4.0.5",
+    "axios": "^0.27.2"
   }
 }
